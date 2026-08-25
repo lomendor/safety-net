@@ -3,6 +3,11 @@
 These short examples are fictional, contain no patient data, and are not presented as validated
 pharmacovigilance decisions.
 
+The transcript blockquotes in Examples 1 and 2 are exact excerpts from the historical
+MIT-licensed v1 synthetic corpus. The surrounding new or revised commentary has a separate
+rights status. See [Rights and permitted use](RIGHTS.md) and the
+[scoped historical MIT notice](HISTORICAL_V1_MIT_NOTICE.md).
+
 ## 1. Information buried inside an operational call
 
 > «Και μια φαγούρα φοβερή με έπιασε από τότε που άρχισα αυτά τα χάπια, αλλά τέλος πάντων,

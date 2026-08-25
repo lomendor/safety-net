@@ -38,9 +38,16 @@ not decide which source is correct.
 
 **[Watch the historical v1.0 narrated demo (3:33)](https://github.com/lomendor/safety-net/releases/download/v1.0.0/safety-net-demo.mp4)**
 
-The exact video and screenshots below preserve the July 2026 v1.0 interface and were released on
-11 August 2026. They predate the Guided Journey and the frozen 10-case held-out evidence. Their UI
-and terminology remain unchanged for provenance.
+The screenshots below preserve the July 2026 v1.0 interface and are exact files from the historical
+source commit dated 19 July 2026. The narrated MP4 was attached to the release on 11 August 2026.
+Both predate the Guided Journey and the frozen 10-case held-out evidence; their UI and terminology
+remain unchanged for provenance.
+
+The three screenshots and two transcript excerpts reused in this showcase retain their
+historical source-tree MIT scope. The release MP4 has a separate, conservatively stated rights
+status because it was not stored in that Git tree. See
+[Rights and permitted use](RIGHTS.md) and the
+[scoped historical MIT notice](HISTORICAL_V1_MIT_NOTICE.md).
 
 The historical Coverage screen uses the phrase “independent mock registry.” Here, that means a
 separately prepared, **author-defined synthetic comparison source**. It does not mean independent
@@ -135,4 +142,6 @@ Designed and specified by **Panagiotis Kourkoutis**. Implementation and adversar
 AI-assisted. No independent pharmacovigilance validation has been completed.
 
 [LinkedIn](https://www.linkedin.com/in/panagiotis-kourkoutis-09274aa1) ·
-[Rights and historical-media provenance](RIGHTS.md) · [Full disclaimer](DISCLAIMER.md)
+[Rights and media provenance](RIGHTS.md) ·
+[Historical v1 MIT notice](HISTORICAL_V1_MIT_NOTICE.md) ·
+[Full disclaimer](DISCLAIMER.md)
