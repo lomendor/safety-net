@@ -38,6 +38,30 @@ not decide which source is correct.
 
 **[Watch the historical v1.0 narrated demo (3:33)](https://github.com/lomendor/safety-net/releases/download/v1.0.0/safety-net-demo.mp4)**
 
+**Note on the video narration (added November 2026).** The narration script, written on 18 July
+2026, contains four statements that are broader than what was measured. They were checked against
+the script, not the audio. What holds today:
+
+- «Αυτό το κενό καλύπτει το Safety Net…» ("Safety Net covers this gap…"): Safety Net reads the
+  transcript of a patient-support-programme call and marks, with the exact excerpts of the call,
+  points labelled «Πιθανή πληροφορία ασφάλειας — απαιτείται ανθρώπινος έλεγχος» ("Possible safety
+  information — human review required"). It does not decide whether something is an adverse event or
+  how serious it is: a trained person judges that, and today the tool exists only as a demo with
+  synthetic data.
+- «Το σύστημα εντόπισε όλα τα προκαθορισμένα ευρήματα» ("The system detected all the predefined
+  findings"): in 50 short synthetic calls written by us with the help of AI models, it flagged 25/25
+  positives and 0/25 negatives. Real calls were not measured.
+- «…η διαδικασία δεν αφήνει τίποτα να χαθεί σιωπηλά» ("…the process lets nothing get lost
+  silently"): 25 positive examples are few. 25/25 does not say how often something would be missed
+  at large volume.
+- «Σε πραγματική χρήση, δεδομένα υγείας δεν θα έφευγαν σε εξωτερικό cloud.» ("In real use, health
+  data would not leave for an external cloud."): the measurements used an OpenAI model in the cloud,
+  with synthetic data only. Real use with health data falls under GDPR special-category rules: DPIA,
+  retention policy, lawful basis for recording.
+
+No example has been judged by an independent expert. We do not claim medical judgment, regulatory
+compliance, validation, production performance or time savings.
+
 The screenshots below preserve the July 2026 v1.0 interface and are exact files from the historical
 source commit dated 19 July 2026. The narrated MP4 was attached to the release on 11 August 2026.
 Both predate the Guided Journey and the frozen 10-case held-out evidence; their UI and terminology
@@ -135,6 +159,27 @@ validation. Τα αποτελέσματα δείχνουν workflow mechanics σ
 Το video και τα screenshots είναι αμετάβλητα ιστορικά artifacts του v1.0 και προηγούνται του
 Guided Journey και του held-out pack. Η παλιά φράση «ανεξάρτητο mock registry» σημαίνει χωριστή,
 author-defined συνθετική πηγή σύγκρισης — όχι ανεξάρτητο ground truth ή domain validation.
+
+**Σημείωμα για την αφήγηση του βίντεο (Νοέμβριος 2026).** Το σενάριο της αφήγησης, γραμμένο στις
+18/7/2026, έχει τέσσερις διατυπώσεις πιο γενικές από όσα μετρήθηκαν. Ελέγχθηκαν στο σενάριο, όχι
+στον ήχο. Τι ισχύει σήμερα:
+
+- «Αυτό το κενό καλύπτει το Safety Net…»: Το Safety Net διαβάζει την απομαγνητοφώνηση μιας κλήσης
+  προγράμματος υποστήριξης ασθενών και σημαδεύει, με τα ακριβή αποσπάσματα της κλήσης, σημεία με την
+  ετικέτα «Πιθανή πληροφορία ασφάλειας — απαιτείται ανθρώπινος έλεγχος». Δεν αποφασίζει αν κάτι
+  είναι ανεπιθύμητη ενέργεια ούτε πόσο σοβαρό είναι: αυτό το κρίνει εκπαιδευμένος άνθρωπος, και
+  σήμερα το εργαλείο υπάρχει μόνο ως επίδειξη με συνθετικά δεδομένα.
+- «Το σύστημα εντόπισε όλα τα προκαθορισμένα ευρήματα»: Σε 50 σύντομες συνθετικές κλήσεις, γραμμένες
+  από εμάς με βοήθεια μοντέλων τεχνητής νοημοσύνης, σημάδεψε 25/25 θετικές και 0/25 αρνητικές.
+  Αληθινές κλήσεις δεν μετρήθηκαν.
+- «…η διαδικασία δεν αφήνει τίποτα να χαθεί σιωπηλά»: 25 θετικά παραδείγματα είναι λίγα. Το 25/25
+  δεν λέει πόσο συχνά θα χανόταν κάτι σε μεγάλο όγκο.
+- «Σε πραγματική χρήση, δεδομένα υγείας δεν θα έφευγαν σε εξωτερικό cloud.»: Οι μετρήσεις έγιναν με
+  μοντέλο της OpenAI στο cloud, μόνο με συνθετικά δεδομένα. Πραγματική χρήση με δεδομένα υγείας:
+  GDPR ειδική κατηγορία — DPIA, πολιτική διατήρησης, νόμιμη βάση ηχογράφησης.
+
+Κανένα παράδειγμα δεν το έχει κρίνει ανεξάρτητος ειδικός. Δεν ισχυριζόμαστε ιατρική κρίση,
+κανονιστική συμμόρφωση, επικύρωση, απόδοση σε παραγωγή ή εξοικονόμηση χρόνου.
 
 ## Author and rights
 
